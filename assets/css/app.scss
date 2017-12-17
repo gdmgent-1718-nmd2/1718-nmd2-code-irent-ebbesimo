@@ -35,16 +35,7 @@ body{
     background-color: rgb(252, 204, 49);
 }
 
-.containerP{
-    min-height: 100vh;
-    background-color: #f1f1f1;
-    padding: 50px;
-    margin-top: 8vh;
-    margin-bottom: 0;
-    min-height: 100vh;
-    padding-left: 10em;
-    padding-right: 10em;
-}
+
 
 //Homepage//
 
@@ -57,7 +48,7 @@ body{
 .introFoto{
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 50vh;
+    height: 15rem;
     
 }
 
@@ -81,13 +72,11 @@ body{
 
 
 .hpFotoRechts img{
-    max-width: 25;
-    background-color: #9d9890;
+    max-width: 20rem;
 }
 
 .hpFotoLinks img{
-    max-width: 25em;
-    background-color: #9d9890;
+    max-width: 20rem;
 }
 
 .hpTekst{
@@ -102,6 +91,39 @@ body{
     font-size: 50pt;
 }
 
+//PAGES//
+
+.containerP{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    padding: 50px;
+    margin-top: 8vh;
+    margin-bottom: 0;
+    min-height: 100vh;
+    padding-left: 10em;
+    padding-right: 10em;
+    text-align: center;
+}
+
+.titelP{
+    margin-bottom: 2rem;
+    margin-top: 6rem;    
+}
+
+.containerP h2{
+    margin-bottom: 2rem;
+    margin-top: 6rem;    
+}
+
+.containerP h2:first-of-type{
+    margin-top: 2px;    
+}
+
+.IntroImgP{
+    height: 12rem;
+    margin-bottom: 10px;
+}
+
 
 //Product//
 
@@ -109,11 +131,86 @@ body{
     width: 50%;
 }
 
+.basil{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.basil table {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.basil-links{
+    text-align: right;
+    color: #383837;
+    font-weight: Bold;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.basil-rechts{
+    text-align: left;
+    color: #575756;
+}
+
 //Contact//
 
+.IntroImgContact{
+    width: 10rem;
+    margin-bottom: 10px;
+}
 
+.gegevens{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
 
+.gegevens table {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.contact-links{
+    text-align: right;
+    color: #383837;
+    font-weight: Bold;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.contact-rechts{
+    text-align: left;
+    color: #575756;
+}
+
+.map{
+    margin-bottom: 50px;
+}
+
+.ContactIcons{
+    font-size: 3rem;
+    margin: 2px 0.5rem;
+    color: #575756;
+}
+
+.ContactIcons:hover{
+    color: #383837;
+}
 //About//
+
+.DelphineT{
+    text-align: left;
+    color: #575756;
+    text-align: left;
+}
+
+.EbbeT{
+    text-align: right;
+    color: #575756;
+    text-align: right;
+}
 
 //Shopping Bag//
 
@@ -122,7 +219,6 @@ body{
 //Payment//
 
 //Order//
-
 
 
 
