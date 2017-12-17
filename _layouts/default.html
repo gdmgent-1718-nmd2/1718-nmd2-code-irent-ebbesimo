@@ -5,10 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e89441b522.js"></script>
 </head>
 <body>
-{{ content }}
+    <a name="top"></a>
+        
+    <div class="container">
+        
+        <div class="sticky-top">
+            {% include nav.html %}
+        </div>
+        
+        {{ content }}
+        
+
+        
+        
+    </div>
+<button onclick="topFunction()" id="backbutton" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
 {% include footer.html %}
 {% include scripts-bottom.html %}
 </body>
+
+        
+
 </html>
+
+
+<!--
+<nav class="navbar fixed-bottom navbar-light bg-light">
+    {%- if site.show-style-guide %}
+        <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+    {%- endif %}
+</nav>
+-->
