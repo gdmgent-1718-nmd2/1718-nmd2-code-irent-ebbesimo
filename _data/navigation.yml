@@ -8,7 +8,4 @@
   url: /product.html
 - title: Shopping Bag
   url: /winkelmand.html
-- title: Payment
-  url: /winkelmand.html/betaling.html
-- title: Order
-  url: /winkelmand.html/betaling.html/order.html
+
