@@ -88,7 +88,14 @@ body{
 
 
 .hpPaw{
-    font-size: 50pt;
+    font-size: 40pt;
+    color: #383837;
+    transition: 0.5s all ease; 
+}
+
+.hpPaw:hover{
+    color: #f1f1f1;
+    transition: 0.5s all ease; 
 }
 
 //PAGES//
