@@ -34,7 +34,14 @@ h2{
 
 #navbarSupportedContent{
     margin-top: 0;
-    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+#navbarSupportedContent li{
+    color: #f1f1f1;
+    
 }
 
 .collapse{
@@ -233,6 +240,8 @@ body {
 
 //Shopping Bag//
 
+
+
 input{
     margin: 0.4rem;
 }
@@ -242,10 +251,17 @@ input{
 }
 
 .PayButton{
+    font-size: 12pt;
     background-color: #575756;
+    margin: auto;
     margin-bottom: 3rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
+.PayButtonA{
+    margin: auto;
+}
 
 //Offer//
 
@@ -256,6 +272,7 @@ input{
 
 
 .footer{
+    font-family: 'Fjalla One', sans-serif;    
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -264,10 +281,8 @@ input{
     text-align: center;
     font-size: 10pt;
     font-weight: lighter;
-    font-style: italic;
     color: #f1f1f1;
-    padding-top: 15px;
-    
+    padding-top: 10px;
 }
 
 .footer a{
