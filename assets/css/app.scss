@@ -40,8 +40,8 @@ h2{
 }
 
 #navbarSupportedContent li{
-    color: #f1f1f1;
-    
+    background-color: #f8f9fa ;
+    padding-bottom: 0.3rem;    
 }
 
 .collapse{
@@ -269,8 +269,44 @@ input{
 
 //Order//
 
+.order p{
+    font-size: 10pt;
+}
+
+.order h3{
+    margin-bottom: 3rem;
+    margin-top: 3rem;    
+}
+
+.order hr{
+    margin-bottom: 3rem;
+    margin-top: 3rem;    
+}
+
+.order table{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.order th{
+    font-size: 12pt;
+}
+
+.order a{
+    color: #383837;
+}
+
+.order td{
+    font-weight: lighter;
+    font-size: 10pt;
+}
+
+.order th{
+    
+}
 
 
+
+//footer//
 .footer{
     font-family: 'Fjalla One', sans-serif;    
     position: absolute;

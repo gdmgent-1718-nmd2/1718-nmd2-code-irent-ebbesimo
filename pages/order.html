@@ -5,10 +5,64 @@ permalink: winkelmand/betaling/order
 # ─────────────────────
 title: Order
 ---
+<div class=" text-center">
+        <div class=" rounded mx-auto d-block">
+            <h1 class="titelP">Thank you for your order!</h1>
+        </div>
+</div>
+<h1></h1>
+<div class="container containerP order">
+         
+        <p>Basil order <b><em>>ca183<</em></b> has successfully been placed.</p>  
+        <p>You’ll find the details about your order below, and we’ll send you a shipping confirmation 
+        (on your email ex.:<b><em>delphinewylin@icloud.com</em></b>) as soon as your order ships. 
+        In the meantime, you can visit our <u><a href="{{ 'index.html' | relative_url }}">site</a></u> for more updates.</p>
+        <hr>
 
-<div class="container containerP">
-        <h1>Thank you for your order!</h1> 
-        <div>Basil order ca183 has successfully been placed. You’ll find the details about your order below, and we’ll send you a shipping confirmation (on your email: delphinewylin@icloud.com) as soon as your order ships. In the meantime, you can visit our site for more updates.</div>
-        <div>Questions? Suggestions?
-        Shoot us an email</div> 
+        <h3>Questions? Suggestions? Shoot us an email!</h3> 
+
+        <hr>
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-left">Order Number</th>
+                    <th scope="col" class="text-right">Order Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-left">ca183</td>
+                    <td class="text-right">November 8, 2017</td>
+                  </tr>
+                </tbody>
+        </table>
+        <hr>
+        
+        <h3 class="text-lg-left">Here’s what you ordered</h3>
+        
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-left">Item</th>
+                    <th scope="col" class="text-right">Days</th>
+                    <th scope="col" class="text-right">Price</th>                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-left">
+                            <img src="" alt="">
+                    </td>
+                    <td class="text-right">1</td>
+                    <td class="text-right">35€</td>                    
+                  </tr>
+                </tbody>
+        </table>
+        <hr>
+        <h3 class="text-lg-right">Total with shipping & tax: € 50,22</h3>
+        
+        
+        <a href="{{ 'index.html' | relative_url }}">
+                <button type="button" class="btn btn-secondary btn-lg PayButton">HOMEPAGE</button>
+        </a>
 </div>
