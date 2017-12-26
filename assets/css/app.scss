@@ -33,7 +33,7 @@ h2{
 }
 
 #navbarSupportedContent{
-    margin-top: 0;
+    margin-top: -2px;
     width: 100%;
     text-align: center;
     color: #f1f1f1;
@@ -99,7 +99,7 @@ body {
 }
 
 .hpTekst{
-    padding-top: 20vh;
+    padding-top: 5vh;
     padding-left: 75px;
     text-align: center;
     padding-right: 75px;
@@ -360,6 +360,30 @@ input{
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) { 
     
+    //HOMEPAGE//
+    .introFoto{
+        height: 10rem;
+    }
+    
+    .hpTekst{
+        padding: 0;
+    }
+
+    .hpTekst h2{
+        font-size: 20pt;
+    }
+    
+    .hpFotoRechts img{
+        width: 5rem;
+        margin-right: 2rem;
+    }
+    
+    .hpFotoLinks img{
+        width: 5rem;
+        margin-left: 2rem;
+    }
+    
+
     .containerP{
         min-height: 100vh;
         background-color: #f1f1f1;
@@ -371,6 +395,8 @@ input{
         padding-right: 1rem;
         text-align: center;
     }
+
+    
 
 }
 

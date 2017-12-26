@@ -1,11 +1,13 @@
 - title: Home
   url: /index.html
+- title: Meet Basil
+  url: /product.html
+- title: Offer
+  url: /offer.html
 - title: About
   url: /about.html
 - title: Contact
   url: /contact.html
-- title: Meet Basil
-  url: /product.html
-- title: Shopping Chart
+- title: Shopping Cart
   url: /winkelmand.html
 
