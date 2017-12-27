@@ -125,7 +125,7 @@ body {
     padding: 50px;
     margin-top: 8vh;
     margin-bottom: 0;
-    min-height: 100vh;
+    min-height: 70vh;
     padding-left: 10em;
     padding-right: 10em;
     text-align: center;
@@ -179,6 +179,10 @@ body {
 .basil-rechts{
     text-align: left;
     color: #575756;
+}
+
+h3{
+    margin-bottom: 30px;
 }
 
 //Contact//
@@ -384,27 +388,61 @@ input{
     }
     
 
+
+    //PRODUCT//
+
+    .ProductRow{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .ProductRow p{
+        font-size: 9pt;
+    }
+
+
+
     .containerP{
         min-height: 100vh;
         background-color: #f1f1f1;
         padding: 50px;
         margin-top: 8vh;
         margin-bottom: 0;
-        min-height: 100vh;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        min-height: 70vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
         text-align: center;
     }
 
+
+
+    //OFFER//
     
+    .OfferRow p{
+        font-size: 9pt;
+    }
+
 
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+    
+    //navigation//
+
+    #navbarSupportedContent li{
+        background-color: #f8f9fa ;
+        padding-bottom: 0.3rem;    
+    }
+
     .containerP{
-        padding-left: 10em;
-        padding-right: 10em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    //Offer//
+
+    .OfferRow p{
+        font-size: 10pt;
     }
 }
 
