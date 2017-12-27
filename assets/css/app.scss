@@ -4,6 +4,9 @@
 
 @import "main";
 
+p{
+    font-size: 10pt;
+}
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Amatic SC', cursive;
@@ -60,7 +63,7 @@ body {
 
 .intro{
     height: 100vh;
-    margin-top: 15vh;
+    margin-top: 7vh;
 }
 
 
@@ -84,22 +87,22 @@ body {
 }
 
 .hpRow{
-    height: 50vh;
-    margin-top: 100px;
+    max-height: 50vh;
+    margin-top: 110px;
     margin-bottom: 100px;
 }
 
 
 .hpFotoRechts img{
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 .hpFotoLinks img{
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 .hpTekst{
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-left: 75px;
     text-align: center;
     padding-right: 75px;
@@ -133,7 +136,7 @@ body {
 
 .titelP{
     margin-bottom: 2rem;
-    margin-top: 6rem;    
+    margin-top: 3rem;    
 }
 
 .containerP h2{
@@ -219,6 +222,10 @@ h3{
     margin-bottom: 50px;
 }
 
+.social-media{
+    margin-bottom: 5vh;
+}
+
 .ContactIcons{
     font-size: 3rem;
     margin: 2px 0.5rem;
@@ -228,6 +235,8 @@ h3{
 .ContactIcons:hover{
     color: #383837;
 }
+
+
 //About//
 
 .DelphineT{
@@ -244,14 +253,12 @@ h3{
 
 //Shopping Bag//
 
-
-
 input{
     margin: 0.4rem;
 }
 
 .ShoppingChart{
-    font-size: 12rem;
+    font-size: 10rem;
 }
 
 .PayButton{
@@ -272,6 +279,14 @@ input{
 //Payment//
 
 //Order//
+
+.order{
+    padding: 50px 20rem;
+}
+
+.logoOrder{
+    width: 30px;
+}
 
 .order p{
     font-size: 10pt;
@@ -361,31 +376,73 @@ input{
     transition: 1s all ease;
 }    
 
-// Small devices (landscape phones, 576px and up)
+// Extra Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) { 
     
+    //back-to-top-button//
+    
+    #backbutton {
+        height: 50px;
+        width: 40px;
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 99;
+        border-width: 3px;
+        outline: none;
+        background-color: #383837;
+        color: #f1f1f1;
+        cursor: pointer;
+        padding: 6.5px;
+        border-radius: 10px;
+        transition: 1s all ease;
+    }
+
+
     //HOMEPAGE//
     .introFoto{
         height: 10rem;
     }
     
+    .hpPaw{
+        font-size: 20pt;
+    }
+
+    .intro{
+        margin-top: 10vh;
+    }
+
+    .hpRow{
+        margin-top: 30px;
+        height: 3vh;
+    }
+
+    .hpFotoRechts{
+        width: 5rem;
+    }
+    
+    .hpFotoLinks{
+        width: 5rem;
+    }
+
     .hpTekst{
+        width: 100px;
         padding: 0;
     }
 
     .hpTekst h2{
-        font-size: 20pt;
+        font-size: 15pt;
     }
     
     .hpFotoRechts img{
-        width: 5rem;
-        margin-right: 2rem;
+        width: 4rem;
     }
     
     .hpFotoLinks img{
-        width: 5rem;
-        margin-left: 2rem;
+        width: 4rem;
     }
+
     
 
 
@@ -399,6 +456,8 @@ input{
         font-size: 9pt;
     }
 
+
+    //CONTACT//
 
 
     .containerP{
@@ -422,11 +481,71 @@ input{
     }
 
 
+
+    //SHOPPING CART//
+    
+    .ShoppingChart{
+        font-size: 4rem;
+    }
+
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 991px) { 
     
+    //HOMEPAGE//
+    .intro{
+        height: 100vh;
+        margin-top: 7vh;
+    }
+    
+    
+    .introFoto{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 10rem;
+        
+    }
+    
+    .hpDropdown{
+        font-size: 30pt;
+        color: #383837;
+        transition: 0.5s all ease;        
+    }
+
+    .hpRow{
+        max-height: 30vh;
+        margin-top: 75px;
+        margin-bottom: 100px;
+    }
+    
+    
+    .hpFotoRechts img{
+        max-width: 10rem;
+    }
+    
+    .hpFotoLinks img{
+        max-width: 10rem;
+    }
+    
+    .hpTekst{
+        padding-top: 0;
+        padding-left: 75px;
+        text-align: center;
+        padding-right: 75px;
+    }
+    
+    .hpTekst h2{
+        font-size: 20pt;
+    }
+    
+    .hpPaw{
+        font-size: 30pt;
+        color: #383837;
+        transition: 0.5s all ease; 
+    }
+
+
     //navigation//
 
     #navbarSupportedContent li{
@@ -444,7 +563,11 @@ input{
     .OfferRow p{
         font-size: 10pt;
     }
+
+    
+
 }
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  
