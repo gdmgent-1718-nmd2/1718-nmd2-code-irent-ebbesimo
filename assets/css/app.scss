@@ -4,6 +4,10 @@
 
 @import "main";
 
+a :hover{
+    cursor: pointer;
+}
+
 p{
     font-size: 10pt;
 }
@@ -270,11 +274,21 @@ h3{
 
 .Delphine{
     margin: 0;
+    display: inline;
 }
 
 .Ebbe{
     margin: 0;
+    display: inline;
 }
+
+.FotoAbout{
+    margin: 0 auto;
+    display:block;
+}
+
+
+
 //Shopping Bag//
 
 input{
@@ -350,6 +364,17 @@ input{
 .order th{
     
 }
+
+
+//SHOPPING CART//
+.fa-plus-circle{
+    color: #383837;
+}
+
+.fa-minus-circle{
+    color: #383837;
+}
+
 
 
 
@@ -472,8 +497,6 @@ input{
     }
 
 
-
-
     //PRODUCT//
 
     .ProductRow{
@@ -488,20 +511,24 @@ input{
 
     //ABOUT//
     
+
+
     .Delphine{
         margin: 0;
     }
 
     .Ebbe{
-
+        margin: 0;
     }
 
-    .DelphineNaam{
+    .delphineNaam{
         font-family: 'Amatic SC', cursive;
+        font-size: 15pt;
     }
 
-    .EbbeNaam{
-        font-family: 'Amatic SC', cursive; 
+    .ebbeNaam{
+        font-family: 'Amatic SC', cursive;
+        font-size: 15pt; 
     }
 
     .DelphineT{
@@ -514,7 +541,14 @@ input{
         font-size: 8pt;
     }
 
+    .FotoAbout{
+        width: 70px;
+        padding: 0;
+    }
 
+    .aboutPers{
+        margin-bottom: 20px;
+    }
 
     //CONTACT//
 
@@ -556,9 +590,21 @@ input{
 
 
     //SHOPPING CART//
-    
-    .ShoppingChart{
-        font-size: 4rem;
+    .CheckoutP{
+        padding:9;
+    }
+
+    .CheckoutP p{
+        font-family: 'Amatic SC', sans-serif;
+        margin: 0 auto;
+        padding: 0;
+        display: inline;
+        font-size: 14pt;
+    }
+
+    #CheckoutP{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 14pt;
     }
 
 }
@@ -653,14 +699,48 @@ input{
     
     //ABOUT//
 
-    .DelphineT h6{
-        color: #575756;
+    .delphineNaam{
+        font-family: 'Amatic SC', cursive;
         font-size: 20pt;
     }
-    
-    .EbbeT h6{
+
+    .ebbeNaam{
+        font-family: 'Amatic SC', cursive;
+        font-size: 20pt; 
+    }
+
+    .DelphineT{
         color: #575756;
-        font-size: 20pt;
+        font-size: 10pt;
+    }
+    
+    .EbbeT{
+        color: #575756;
+        font-size: 10pt;
+    }
+
+    .FotoAbout{
+        width: 110px;
+        padding: 0;
+    }
+
+    .aboutPers{
+        margin-bottom: 40px;
+    }
+
+
+    //SHOPPING CART//
+    .CheckoutP p{
+        font-family: 'Amatic SC', sans-serif;
+        margin: 0 auto;
+        padding: 0;
+        display: inline;
+        font-size: 18pt;
+    }
+
+    #CheckoutP{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 14pt;
     }
 
 }
@@ -680,6 +760,55 @@ input{
         height:500px;
         width:800px;
     }
+
+
+    //ABOUT//
+
+    .delphineNaam{
+        font-family: 'Amatic SC', cursive;
+        font-size: 25pt;
+    }
+
+    .ebbeNaam{
+        font-family: 'Amatic SC', cursive;
+        font-size: 30pt; 
+    }
+
+    .DelphineT{
+        color: #575756;
+        font-size: 25pt;
+    }
+    
+    .EbbeT{
+        color: #575756;
+        font-size: 25pt;
+    }
+
+    .FotoAbout{
+        width: 160px;
+        padding: 0;
+    }
+
+    .aboutPers{
+        margin-bottom: 80px;
+    }
+
+
+
+    //SHOPPING CART//
+    .CheckoutP p{
+        font-family: 'Amatic SC', sans-serif;
+        margin: 0 auto;
+        padding: 0;
+        display: inline;
+        font-size: 18pt;
+    }
+
+    #CheckoutP{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 14pt;
+    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
