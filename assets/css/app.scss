@@ -11,6 +11,7 @@ p{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
+    color: #383837;
 }
 
 h1{
@@ -20,6 +21,10 @@ h1{
 
 h2{
     font-size: 30pt;
+}
+
+button{
+    font-family: 'Fjalla One', sans-serif;
 }
 
 //navigation//
@@ -240,17 +245,36 @@ h3{
 //About//
 
 .DelphineT{
-    text-align: left;
+    text-align: center;
     color: #575756;
-    text-align: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.delphineNaam{
+    font-family: 'Amatic SC', cursive;
+    font-size: 10.5pt;
+    text-align: center;    
+}
+
+.DelphineT-rechts{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8pt;
+    text-align: center;
 }
 
 .EbbeT{
-    text-align: right;
+    text-align: center;
     color: #575756;
-    text-align: right;
 }
 
+.Delphine{
+    margin: 0;
+}
+
+.Ebbe{
+    margin: 0;
+}
 //Shopping Bag//
 
 input{
