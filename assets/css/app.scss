@@ -270,6 +270,10 @@ input{
     text-align: center;
 }
 
+#exampleInputEmail1{
+    font-size: 8pt;
+}
+
 .PayButtonA{
     margin: auto;
 }
@@ -443,7 +447,7 @@ input{
         width: 4rem;
     }
 
-    
+
 
 
     //PRODUCT//
@@ -457,8 +461,53 @@ input{
     }
 
 
+
+    //ABOUT//
+    
+    .Delphine{
+        margin: 0;
+    }
+
+    .Ebbe{
+
+    }
+
+    .DelphineNaam{
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .EbbeNaam{
+        font-family: 'Amatic SC', cursive; 
+    }
+
+    .DelphineT{
+        color: #575756;
+        font-size: 8pt;
+    }
+    
+    .EbbeT{
+        color: #575756;
+        font-size: 8pt;
+    }
+
+
+
     //CONTACT//
 
+    #div-table-contact{
+        font-size: 9pt;
+    }
+
+
+    #map{
+        height:400px;
+        width:230px;
+    }
+
+    #gmap_canvas{
+        height:400px;
+        width:200px;
+    }
 
     .containerP{
         min-height: 100vh;
@@ -563,15 +612,50 @@ input{
     .OfferRow p{
         font-size: 10pt;
     }
+    
+
+    //CONTACT//
+
+    #map{
+        height:300px;
+        width:560px;
+    }
+
+    #gmap_canvas{
+        height:300px;
+        width:560px;
+    }
 
     
+    //ABOUT//
+
+    .DelphineT h6{
+        color: #575756;
+        font-size: 20pt;
+    }
+    
+    .EbbeT h6{
+        color: #575756;
+        font-size: 20pt;
+    }
 
 }
 
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  
+    
+    //CONTACT//
 
+    #map{
+        height:500px;
+        width:800px;
+    }
+
+    #gmap_canvas{
+        height:500px;
+        width:800px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
